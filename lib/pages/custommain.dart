@@ -1,7 +1,7 @@
+import 'package:facebook/marketplace.dart';
+import 'package:facebook/notification.dart';
 import 'package:facebook/pages/friends.dart';
-import 'package:facebook/pages/marketplace.dart';
 import 'package:facebook/pages/newsfeed.dart';
-import 'package:facebook/pages/notification.dart';
 import 'package:facebook/pages/profile.dart';
 import 'package:facebook/pages/reels.dart';
 import 'package:flutter/material.dart';
@@ -17,11 +17,11 @@ class _CustomMainState extends State<CustomMain> {
   int currenPage = 0;
 
   List pages = [
-    const NewsFeed(),
-    const reelspage(),
-    const friendspage(),
+    const Newsfeed(),
+    const ReelsPage(),
+    const FriendsPage(),
     const marketplacepage(),
-    const notificationpage(),
+    const NotificationPage(),
     const profilepage(),
   ];
 
